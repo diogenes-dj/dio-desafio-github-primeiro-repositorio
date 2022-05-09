@@ -1,0 +1,73 @@
+
+cd	( entra e cd/ volta
+cd .. 	( para voltar
+cls	( limpar a tela
+dir 	( mostra uma lista de diretórios)
+mkdir	( criar uma pasta
+del / rmdir (deleta a pasta e o arquivo - repositório
+rmdir (nome da pasta)  /S /Q
+
+pwd	(mostra onde eu to)
+____________________________
+teclas de atalhos
+tab = completar
+
+________________________
+
+objetos internos do git
+Blobs - bloco básico de composição - guarda o sha e não o nome
+Trees -\0 Armazenam blobs guarda o nome do arquivo
+Commits - vai juntar tudo
+___________________
+
+___________________________________________
+comandos básicos git
+- git  init
+- git add
+- git commit
+
+criando repositório
+ls -a 	//mostra arquivos ocultos
+
+
+
+markdown
+# nivel 1 (letra grande, qnt mais aumentar o numero menor é a fonte)
+##
+###
+
+git add *
+git commit -m "commit inicial"
+
+git status
+
+(use "git restore --staged <file>..." to unstage)
+
+echo > README.md
+
+git commit -m "adiciona index"
+
+git config --list
+
+git config --global --unset user.nickname //apagar o nick
+git config --global user.nickname "nick" //criar o nick
+
+
+git remote add origin 
+git remote -v
+
+git push origin master
+
+git pull origin master
+
+git clone
+
+________________________
+markdownguide.org/basic-syntax/
+
+
+
+
+
+
+
