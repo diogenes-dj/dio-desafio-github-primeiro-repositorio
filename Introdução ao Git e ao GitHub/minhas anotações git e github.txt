@@ -56,10 +56,10 @@ git config --global user.nickname "nick" //criar o nick
 git remote add origin 
 git remote -v
 
-git push origin master
-
-git pull origin master
-
+git push origin master // agora master = main
+git push origin main
+git pull origin master // 
+git pull origin main
 git clone
 
 ________________________
